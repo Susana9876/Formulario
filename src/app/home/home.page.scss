@@ -25,3 +25,39 @@
 #container a {
   text-decoration: none;
 }
+
+.title{
+  text-align: center;
+  color:darkslategrey;
+  font-weight: bold;
+}
+
+// .boton{
+//   border-radius: 50px;
+//   background-color: aqua;
+//   position: absolute;
+// }
+
+.username{
+  font-weight: bold;
+}
+
+.pass{
+  font-weight: bolder;
+}
+
+ion-icon{
+  color: darkslategrey;
+}
+
+// .boton{
+//   background-color: darkolivegreen;
+//   border-radius:25px;
+// }
+
+$color:darkolivegreen;
+
+button{
+  background-color: $color;
+  --border-radius:25px;
+}
